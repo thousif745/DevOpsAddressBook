@@ -1,3 +1,2 @@
 FROM tomcat:8
-MAINTAINER cbabu85@gmail.com
-COPY /target/*.war /usr/local/tomcat/webapps/addressbook.war
+COPY /target/addressbook.war /usr/local/tomcat/webapps/addressbook.war
