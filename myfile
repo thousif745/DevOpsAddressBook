@@ -16,7 +16,7 @@ pipeline {
       sh 'mvn package'
       }
       }
-     stage('Deployment'){
+     stage('Deploymentment'){
     steps {
       sh 'cp target/addressbook.war /opt/tomcat/webapps/'
       }
